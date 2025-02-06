@@ -4,6 +4,8 @@ Project Description:
 
 The Banking System is a Python-based console application that simulates basic banking operations. It provides functionality for account creation, login, and performing essential banking transactions such as balance inquiry, deposit, and withdrawal. The program maintains user account details and balances in memory for the duration of its execution.
 
+<hr/>
+
 Features:
 1. Account Creation:
 
@@ -27,6 +29,8 @@ Prevents invalid operations such as negative deposits or withdrawals exceeding b
 
 Users can exit the application at any time.
 
+<hr/>
+
 How to Use:
 
 1. Run the program in any Python environment.
@@ -40,6 +44,8 @@ How to Use:
 * Perform banking operations or exit the application.
 
 Example Usage -
+
+<hr/>
 
 Main Menu:
 
@@ -75,6 +81,8 @@ Logged In Options:
 2. Deposit
 3. Withdraw
 4. Logout
+
+<hr/>
 
 Requirements:
 
