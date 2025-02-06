@@ -43,9 +43,9 @@ How to Use:
 * Log in to an existing account.
 * Perform banking operations or exit the application.
 
-Example Usage -
-
 <hr/>
+
+Example Usage -
 
 Main Menu:
 
