@@ -37,5 +37,3 @@ The Banking System is a Python-based console application that simulates basic ba
 - PINs are stored in plaintext; for security, consider encrypting them.
 - Enhancements like database integration, transaction history, and security improvements can be added.
 
-## Author
-This script is designed for learning and demonstration purposes. Future improvements can be made for production-ready applications.
