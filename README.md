@@ -1,89 +1,41 @@
-**Banking Management System**
+# Banking Management System
 
-Project Description:
-
+## Overview
 The Banking System is a Python-based console application that simulates basic banking operations. It provides functionality for account creation, login, and performing essential banking transactions such as balance inquiry, deposit, and withdrawal. The program maintains user account details and balances in memory for the duration of its execution.
 
-<hr/>
+## Features
+- **Create Account:** Users can create a new bank account with a name and PIN.
+- **Login:** Users can log in using their name and PIN.
+- **View Balance:** Displays the current balance of the logged-in user.
+- **Deposit Money:** Allows users to deposit money into their account.
+- **Withdraw Money:** Enables users to withdraw money from their account, ensuring sufficient balance.
+- **Logout:** Users can securely log out of their accounts.
 
-Features:
-1. Account Creation:
+## Prerequisites
+- Python 3.x
 
-* Users can create an account by providing their name and a unique 4-digit PIN.
-* Each account is initialized with a balance of $0.
-2. Login System:
+## Installation
+1. Clone the repository or copy the script.
+2. Run the script using Python:
+   ```bash
+   python banking_system.py
+   ```
 
-* Users can securely log in using their name and PIN.
-* Only valid credentials allow access to banking features.
-3. Banking Operations:
+## How to Use
+1. Run the script and choose an option:
+   - **Option 1:** Create an account (enter name and PIN).
+   - **Option 2:** Login using an existing account.
+   - **Option 3:** Exit the program.
+2. If logged in, additional options will be available:
+   - View balance
+   - Deposit money
+   - Withdraw money
+   - Logout
 
-4. View Balance: Check the current account balance.
-5. Deposit: Add money to the account balance.
-6. Withdraw: Deduct money from the account balance (within limits).
-7. Logout: Securely exit the account session.
-8. Error Handling:
+## Notes
+- The script does not store account data persistently; all data is lost when the script stops running.
+- PINs are stored in plaintext; for security, consider encrypting them.
+- Enhancements like database integration, transaction history, and security improvements can be added.
 
-Validates user inputs for choices, deposit amounts, and withdrawal limits.
-Prevents invalid operations such as negative deposits or withdrawals exceeding balance.
-9. Exit System:
-
-Users can exit the application at any time.
-
-<hr/>
-
-How to Use:
-
-1. Run the program in any Python environment.
-2. The program displays a main menu with three options:
-* 1. Create Account
-* 2. Login
-* 3. Exit
-3. Follow on-screen instructions to:
-* Create an account.
-* Log in to an existing account.
-* Perform banking operations or exit the application.
-
-<hr/>
-
-Example Usage -
-
-Main Menu:
-
-Welcome to Our Bank.
-1. Create Account
-2. Login
-3. Exit
-   
-Create Account:
-
-Select an option(1/2/3): 1
-
-Please enter your name: John
-
-Please enter your pin: 1234
-
-Account created Successfully!!, Login to continue.
-
-Login:
-
-Select an option(1/2/3): 2
-
-Please enter your name: John
-
-Please enter your pin: 1234
-
-Login Successful!
-
-Logged-In Options:
-
-Logged In Options:
-1. View Balance
-2. Deposit
-3. Withdraw
-4. Logout
-
-<hr/>
-
-Requirements:
-
-* Python 3.x
+## Author
+This script is designed for learning and demonstration purposes. Future improvements can be made for production-ready applications.
