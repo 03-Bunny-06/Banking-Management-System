@@ -1,6 +1,6 @@
 # Banking Management System
 
-## Overview
+## Project Description
 The Banking System is a Python-based console application that simulates basic banking operations. It provides functionality for account creation, login, and performing essential banking transactions such as balance inquiry, deposit, and withdrawal. The program maintains user account details and balances in memory for the duration of its execution.
 
 ## Features
